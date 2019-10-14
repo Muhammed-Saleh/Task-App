@@ -1,0 +1,25 @@
+{
+  "name": "task-manger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bluebird": "^3.7.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^2.2.36",
+    "mongoose": "^4.13.19",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
